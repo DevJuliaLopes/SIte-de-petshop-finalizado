@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="cachorro.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
+    <title>Agenda</title>
+    <style>
+        *  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ body {
+    background-color: #e7c86a ;
+   
+   color: #ffffff;
+ }
+ .ban {
+    max-width: 900vh; /* mexe com o tamanho do banner*/
+    padding: 0.5h; /*largura do banner*/
+    margin: auto;
+    height: auto;
+    
+ }
+ nav {
+   position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #734D3F ;
+    padding: 20px;
+    width: 100vw;
+    margin: auto;
+   
+ }
+ nav .logo{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    margin-left: 35px;
+
+ }
+
+
+ nav ul {
+    list-style: none;
+ }
+ nav ul li {
+    display: inline-table; /*faz com que o li (menu) quebre a linha e fique um do lado do outro*/
+    margin-right: 15vh;
+    margin-top: 25px;
+ }
+ nav ul li a  {
+    padding: 15px 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 10px;
+    padding: 5px;
+    transition: width 0.6s, padding 0.2s;
+ }
+ nav ul li a:hover{
+   text-decoration: underline #472905 solid 3px; /* sublinhado do texto cor e grossura do sublinhado*/
+   
+  }
+  
+  fieldset {
+
+    margin: 150px;
+    height: 490px;
+    width: 350px;
+    background-color:#e7c86a ;
+    color: #ffffff;
+    font-style: italic;
+    border: 2px solid #472905;
+    border-radius: 5px;
+    float: right;
+    padding: 5px;
+    box-shadow: 2px 5px #351a01;
+  }
+ input, select, .botao {
+    font-size: 1em;
+    background-color:#f4da8c ;
+    color: #ffffff;
+    font-style: italic;
+    width: 260px;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 3px solid #854a03;
+    border-radius: 5px;
+    margin-left: 35px;
+    box-sizing: border-box;
+   
+}
+.botao:hover {
+    background-color: #734D3F;
+}
+ 
+figure.a1 img {
+   position:relative;
+   width: 300px; /*largura*/
+   height: 355px; /*altura*/
+   float: left;
+   margin-left: 210px;
+   top: 230px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+figure.a2 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 480;
+   top: 220px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+h1 {
+   position: absolute;
+   width: 400px;
+   height: 138px;
+   left: 1050px;
+   top: 100px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 69px;
+   color: #ffffff;
+}
+ 
+
+
+
+    </style>
+</head>
+<body>
+    <div class="ban">
+        <nav>
+          
+          <div class="logo">
+              <div class="animate__animated animate__bounce"></div>
+              <span>PetShowp</span>
+    
+          </div>
+          <ul>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="menu.html">LOJA</a></li>
+            <li><a href="agendar.html">AGENDAR</a></li>
+            <li><a href="menu.html">CONTATO</a></li>
+            <li><a href="adocao.html">ADOÇÃO</a></li>
+          </ul>
+        </nav>
+        <div class="ins">
+            <h1>Inscrição do pet</h1>
+            
+        </div>
+        
+        <form>
+            <fieldset>
+            <div class="formu">
+            <div><input type="text" placeholder="Digite o nome do responsavél" class="inputs"></div>
+            <div><input type="text" placeholder="Digite o nome do pet" class="inputs"></div>
+            <div><input type="text" placeholder="Digite o cpf do responsavél"class="inputs"></div>
+            <div><input type="date" placeholder="Digite a melhor data" class="inputs"></div>
+            <div><input type="text" placeholder="Digite o endereço" class="inputs"></div>
+             
+            <div><select id="objetivo">
+                <option selected disabled value="">Selecione</option>
+                 <option>Banho & tosa</option>
+                 <option>Veterinario</option>
+                 <option>Creche</option>
+            </select></div>
+            <button class="botao">Agendar</button>
+
+        </div>
+    </fieldset>
+    
+        </form>
+        <figure class="a1">
+            <img src="cachorro.jpg" width="250px">
+          </figure> 
+          <figure class="a2">
+            <img src="gatos.jpg" width="250px">
+        </figure>
+
+        <footer>
+            <div class="footer-logo">
+             <img src="loog.png" width="85px">
+            </div>
+          </footer>
+
+
+          
+    </body>
+</html>

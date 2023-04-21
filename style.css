@@ -1,0 +1,352 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ body {
+    background-image: linear-gradient(#F28705, #edbf34 );
+   color: #ffffff;
+ }
+ .ban {
+
+    max-width: 1200vh; /* mexe com o tamanho do banner*/
+    padding: 0.5vh; /*largura do banner*/
+    margin: auto;
+ }
+
+ nav {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #734D3F ;
+    width: 98vw;
+    margin: auto;
+   
+ }
+ nav .logo{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    margin-left: 35px;
+
+ }
+
+
+ nav ul {
+    list-style: none;
+ }
+ nav ul li {
+    display: inline-table; /*faz com que o li (menu) quebre a linha e fique um do lado do outro*/
+    margin-right: 15vh;
+    margin-top: 25px;
+ }
+ nav ul li a  {
+    padding: 15px 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 10px;
+    padding: 5px;
+    transition: width 0.6s, padding 0.2s;
+ }
+ nav ul li a:hover{
+   text-decoration: underline #472905 solid 3px; /* sublinhado do texto cor e grossura do sublinhado*/
+   
+  }
+
+.inicio {
+   width: 98vw;
+   
+}
+.botao {
+   position: relative;
+   width: 400px;
+   height: 100px;
+   left: 1000px;
+   top: -210px; /* mover bot para cima ou para baixo*/
+   background: #4B683A;
+   border-radius: 6px;
+   border:none;
+   font-family: 'Kite One', sans-serif;
+   color: #fff;
+   font-size: 30px;
+   display: block;
+  
+  
+}
+.botao:hover {
+   background-color: #275227;
+   transform: scale(1.1);
+    transition: all 0.5s;
+    color: rgb(212, 168, 84);
+   
+}
+
+ p {
+   position: absolute;
+   width: 400px;
+   height: 138px;
+   left: 1000px;
+   top: 430px;
+   font-family: 'Kite One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 69px;
+   color: #E39F4D;
+
+ }
+ a, a, .b, .c{
+   text-decoration: none;
+   color: #fff;
+ }
+
+.contcarr{
+   display: flex;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+ margin-left: 30px;
+
+}
+
+.b1, .b2, .b3, .b4, .b5 {
+   background-color:  #734D3F;
+   padding: 15px;
+   height: 50px;
+   width: 215px;
+   border: 2px solid  #422407;
+   border-radius: 7px;
+   color: #ffffff;
+   font-family:'Kite One';
+}
+
+.b1:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+}
+.b2:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+}
+.b3:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+}
+.b4:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+}
+
+ .b5:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+}
+
+figure.a1 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 50;
+   top: 1250px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+figure.a2 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 340;
+   top: 1250px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+ 
+figure.a3 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 650;
+   top: 1250px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+ 
+figure.a4 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 950;
+   top: 1250px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+figure.a5 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 1230;
+   top: 1250px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+ 
+ .ad1 {
+box-sizing: border-box;
+position: absolute;
+width: 450px;
+height: 720px;
+left: 1000px;
+top: 1550px;
+background: #734D3F;;
+border: 3px solid #5C2E03;
+border-radius: 8px;
+margin-left: 25px;
+
+ }
+
+
+ .adote{
+   font-family: 'kite one';
+   font-size: 35px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   width: 400px;
+   height: 70px;
+   margin-top:  7px;
+   margin-left: 25px;
+   border-radius: 5px;
+   border: 4px solid #5C2E03;
+   background-color: transparent;
+   cursor: pointer;
+   
+   
+ }
+ .adote:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+ }
+ .adocao {
+   margin-top: 20px;
+   margin-left: 12px;
+ }
+
+ .ad2 {
+   box-sizing: border-box;
+   position: absolute;
+   width: 450px;
+   height: 720px;
+   left: 520px;
+   top: 1550px;
+   background: #734D3F;;
+   border: 3px solid #5C2E03;
+   border-radius: 8px;
+   margin-left: 25px;
+   
+    }
+    .ad3 {
+      box-sizing: border-box;
+      position: absolute;
+      width: 450px;
+      height: 720px;
+      left: 40px;
+      top: 1550px;
+      background: #734D3F;;
+      border: 3px solid #5C2E03;
+      border-radius: 8px;
+      margin-left: 25px;
+      
+       }
+
+       figure.a6 img {
+         position: absolute;
+         width: 220px; /*largura*/
+         height: 235px; /*altura*/
+         right: 280;
+         top: 2400px;
+         border-radius: 50%;
+         cursor: pointer;
+      }
+     
+      h3 {
+         top: 2350;
+         left: 550px;
+         position: absolute;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 35px;
+         color: #ffffff;
+      
+      }
+      .titulo1 {
+         top:2650;
+         right: 370;
+         position: absolute;
+         font-family: 'kite one';
+         font-size: 25px;
+         color: #ffffff;
+         cursor: pointer;
+      
+      }
+
+      
+      figure.a7 img {
+         position: absolute;
+         width: 220px; /*largura*/
+         height: 235px; /*altura*/
+         right: 650;
+         top: 2400px;
+         border-radius: 50%;
+         cursor: pointer;
+      }
+      .titulo2 {
+         top:2650;
+         right: 710;
+         position: absolute;
+         font-family: 'kite one';
+         font-size: 25px;
+         color: #ffffff;
+      }
+      figure.a8 img {
+         position: absolute;
+         width: 220px; /*largura*/
+         height: 235px; /*altura*/
+         left: 250;
+         top: 2400px;
+         border-radius: 50%;
+         cursor: pointer;
+      }
+      .titulo3 {
+         top:2650;
+         left: 310;
+         position: absolute;
+         font-family: 'kite one';
+         font-size: 25px;
+         color: #ffffff;
+      }
+      footer {
+         margin-top: 1500px;
+         border: 0.5px solid #fff;
+        padding: 50px;
+      }
+      .footer-logo{
+         margin-left: 650;
+         
+      }
+     
+      

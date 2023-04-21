@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="cachorro.jpg">
+    <title>Agenda</title>
+    <style>
+        *  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ body {
+    background-color: #e7c86a ;
+   
+   color: #ffffff;
+ }
+ .ban {
+    max-width: 1600vh; /* mexe com o tamanho do banner*/
+    padding: 0.5h; /*largura do banner*/
+    margin: auto;
+    height: auto;
+    
+ }
+ nav {
+   position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #734D3F ;
+    padding: 20px;
+    width: 100vw;
+    margin: auto;
+   
+ }
+ nav .logo{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    margin-left: 35px;
+
+ }
+
+
+ nav ul {
+    list-style: none;
+ }
+ nav ul li {
+    display: inline-table; /*faz com que o li (menu) quebre a linha e fique um do lado do outro*/
+    margin-right: 15vh;
+    margin-top: 25px;
+ }
+ nav ul li a  {
+    padding: 15px 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 10px;
+    padding: 5px;
+    transition: width 0.6s, padding 0.2s;
+ }
+ nav ul li a:hover{
+   text-decoration: underline #472905 solid 3px; /* sublinhado do texto cor e grossura do sublinhado*/
+   
+  }
+  
+  fieldset {
+
+    margin: 290px;
+    height: 410px;
+    width: 350px;
+    background-color:#e7c86a ;
+    color: #ffffff;
+    font-style: italic;
+    border: 2px solid #472905;
+    border-radius: 5px;
+    float: right;
+    padding: 5px;
+    box-shadow: 2px 5px #351a01;
+  }
+ input, select, .botao {
+    font-size: 1em;
+    background-color:#f4da8c ;
+    color: #ffffff;
+    font-style: italic;
+    width: 260px;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 3px solid #854a03;
+    border-radius: 5px;
+    margin-left: 35px;
+    box-sizing: border-box;
+   
+}
+.botao:hover {
+    background-color: #734D3F;
+}
+ 
+figure.a1 img {
+   position:relative;
+   width: 300px; /*largura*/
+   height: 355px; /*altura*/
+   float: left;
+   margin-left: 210px;
+   top: 230px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+figure.a2 img {
+   position: absolute;
+   width: 220px; /*largura*/
+   height: 235px; /*altura*/
+   left: 480;
+   top: 220px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+h1 {
+   position: absolute;
+   width: 400px;
+   height: 138px;
+   left: 950px;
+   top: 200px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 69px;
+   color: #ffffff;
+}
+ 
+.ad3 {
+      box-sizing: border-box;
+      position: absolute;
+      width: 450px;
+      height: 720px;
+      left: 120px;
+      top: 150px;
+      background: #734D3F;;
+      border: 3px solid #5C2E03;
+      border-radius: 8px;
+      margin-left: 55px;
+      
+       }
+       .adote{
+   font-family: 'kite one';
+   font-size: 35px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   width: 400px;
+   height: 70px;
+   margin-top:  7px;
+   margin-left: 25px;
+   border-radius: 5px;
+   border: 4px solid #5C2E03;
+   background-color: transparent;
+   cursor: pointer;
+   
+ }
+ .adote:hover {
+   background-color: #3e2105 ;
+   transform: scale(1.1); /*elevação do botão*/
+   transition: all 0.6s;
+   color: rgb(212, 168, 84);
+ }
+ .adocao {
+   margin-top: 20px;
+   margin-left: 12px;
+ }
+
+    </style>
+</head>
+<body>
+    <div class="ban">
+        <nav>
+          
+          <div class="logo">
+              <div class="animate__animated animate__bounce"></div>
+              <span>PetShowp</span>
+    
+          </div>
+          <ul>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="menu.html">LOJA</a></li>
+            <li><a href="agendar.html">AGENDAR</a></li>
+            <li><a href="menu.html">CONTATO</a></li>
+            <li><a href="adocao.html">ADOÇÃO</a></li>
+          </ul>
+        </nav>
+        <div class="ins">
+            <h1>Adoção do pet</h1>
+            
+        </div>
+        
+        <form>
+            <fieldset>
+            <div class="formu">
+            <div><input type="text" placeholder="Digite o nome do responsavél" class="inputs"></div>
+            <div><input type="text" placeholder="Digite o cpf do responsavél"class="inputs"></div>
+            <div><input type="date" placeholder="Digite a melhor data" class="inputs"></div>
+            <div><input type="text" placeholder="Digite seu endereço" class="inputs"></div>
+            
+        </div>
+    
+    
+        </form>
+        <button class="botao">Adotar</button>
+
+    </div>
+</fieldset>
+<div class="ad3">
+    <img class="adocao" src="cac.png" width="420px">
+    <button class="adote"><a href="#form"></a>ADOTE</button>
+  </div>
+
+
+          
+    </body>
+</html>
